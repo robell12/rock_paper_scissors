@@ -1,0 +1,14 @@
+#rock-choice {
+  width:200px;
+  margin-left:20px;
+  border: 5px solid black;
+}
+#paper-choice {
+  width:120px;
+  margin-right: 20px;
+}
+#scissors-choice {
+  width:200px;
+  margin-left:20px;
+  border: 5px solid black;
+}

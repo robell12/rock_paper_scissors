@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href='stylesheets/main.css' rel='stylesheet' />
+  </head>
+  <body class='center grey lighten-2'>
+    <h1 class='cyan-text text-accent-4'>Roca, Papel, Tijeras</h1>
+    <br />
+    <div class='container row'>
+      <div class="col s12">
+        <img src='images/Paper.jpg' id='paper-choice' />
+        <img src='images/rock.jpg' id='rock-choice' />
+        <img src='images/scissors.jpg' id='scissors-choice' />
+      </div>
+      <div class='col s12 green lighten-3' id='display-result'></div>
+      <br />
+      <div class='col s12'>
+        <div id='wins'></div>
+        <div id='ties'></div>
+        <div id='losses'></div>
+      </div>
+      <div class='col s12'>
+        <div class='btn red' id='reset-button'>Reset</div>
+      </div>
+    </div>
+
+    <script src='javascripts/main.js'></script>
+  </body>
+</html>
